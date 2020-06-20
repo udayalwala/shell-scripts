@@ -1,0 +1,79 @@
+Jun 20 11:40:23 ip-172-31-20-11 kernel: [    0.000000] DMI: Xen HVM domU, BIOS 4.2.amazon 08/24/2006
+Jun 20 11:40:39 ip-172-31-20-11 systemd[1]: Mounting Mount unit for amazon-ssm-agent, revision 1566...
+Jun 20 11:40:39 ip-172-31-20-11 systemd[1]: Mounted Mount unit for amazon-ssm-agent, revision 1566.
+Jun 20 11:40:40 ip-172-31-20-11 systemd[1]: Started Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020/06/20 11:40:40 Failed to load instance info from vault. RegistrationKey does not exist.
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: Initializing new seelog logger
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: New Seelog Logger Creation Complete
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020-06-20 11:40:40 ERROR Error adding the directory to watcher: no such file or directory
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020-06-20 11:40:40 INFO Agent is in hibernate mode. Reducing logging. Logging will be reduced to one log per backoff period
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020-06-20 11:40:40 INFO Entering SSM Agent hibernate - EC2RoleRequestError: no EC2 instance role found
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: caused by: EC2MetadataError: failed to make EC2Metadata request
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: caused by: <?xml version="1.0" encoding="iso-8859-1"?>
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: #011"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  <head>
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:   <title>404 - Not Found</title>
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  </head>
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  <body>
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:   <h1>404 - Not Found</h1>
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  </body>
+Jun 20 11:40:40 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: </html>
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020-06-20 11:45:41 INFO Backing off health check to every 600 seconds for 1800 seconds.
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020-06-20 11:45:41 ERROR Health ping failed with error - EC2RoleRequestError: no EC2 instance role found
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: caused by: EC2MetadataError: failed to make EC2Metadata request
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: caused by: <?xml version="1.0" encoding="iso-8859-1"?>
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: #011"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  <head>
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:   <title>404 - Not Found</title>
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  </head>
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  <body>
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:   <h1>404 - Not Found</h1>
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  </body>
+Jun 20 11:45:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: </html>
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020-06-20 12:15:41 INFO Backing off health check to every 1200 seconds for 3600 seconds.
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020-06-20 12:15:41 ERROR Health ping failed with error - EC2RoleRequestError: no EC2 instance role found
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: caused by: EC2MetadataError: failed to make EC2Metadata request
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: caused by: <?xml version="1.0" encoding="iso-8859-1"?>
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: #011"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  <head>
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:   <title>404 - Not Found</title>
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  </head>
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  <body>
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:   <h1>404 - Not Found</h1>
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  </body>
+Jun 20 12:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: </html>
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020-06-20 13:15:41 INFO Backing off health check to every 2400 seconds for 7200 seconds.
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020-06-20 13:15:41 ERROR Health ping failed with error - EC2RoleRequestError: no EC2 instance role found
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: caused by: EC2MetadataError: failed to make EC2Metadata request
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: caused by: <?xml version="1.0" encoding="iso-8859-1"?>
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: #011"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  <head>
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:   <title>404 - Not Found</title>
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  </head>
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  <body>
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:   <h1>404 - Not Found</h1>
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  </body>
+Jun 20 13:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: </html>
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020-06-20 15:15:41 INFO Backing off health check to every 3600 seconds for 10800 seconds.
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: 2020-06-20 15:15:41 ERROR Health ping failed with error - EC2RoleRequestError: no EC2 instance role found
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: caused by: EC2MetadataError: failed to make EC2Metadata request
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: caused by: <?xml version="1.0" encoding="iso-8859-1"?>
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: #011"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  <head>
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:   <title>404 - Not Found</title>
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  </head>
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  <body>
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:   <h1>404 - Not Found</h1>
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]:  </body>
+Jun 20 15:15:41 ip-172-31-20-11 amazon-ssm-agent.amazon-ssm-agent[1577]: </html>
